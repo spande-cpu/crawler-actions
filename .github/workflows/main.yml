@@ -3,11 +3,7 @@ name: currencyscraper
 # Controls when the action will run.
 on:
   schedule:
-    - cron: '31 9 * * *'
-# Permissions
-permissions:
-      contents: write  # To push a branch 
-      pull-requests: write  # To create a PR from that branch
+    - cron: '36 9 * * *'
 jobs: 
   autoscrape:
     # The type of runner that the job will run on
