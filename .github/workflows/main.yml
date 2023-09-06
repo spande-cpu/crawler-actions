@@ -3,7 +3,7 @@ name: currencyscraper
 # Controls when the action will run.
 on:
   schedule:
-    - cron: '36 9 * * *'
+    - cron: '39 8 * * *'
 jobs: 
   autoscrape:
     # The type of runner that the job will run on
